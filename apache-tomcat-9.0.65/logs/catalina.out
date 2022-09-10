@@ -1,0 +1,48 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Sep-2022 22:16:44.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.65
+10-Sep-2022 22:16:44.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 14 2022 12:28:53 UTC
+10-Sep-2022 22:16:44.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.65.0
+10-Sep-2022 22:16:44.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+10-Sep-2022 22:16:44.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     12.4
+10-Sep-2022 22:16:44.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+10-Sep-2022 22:16:44.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+10-Sep-2022 22:16:44.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17+35-LTS-2724
+10-Sep-2022 22:16:44.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+10-Sep-2022 22:16:44.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65
+10-Sep-2022 22:16:44.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65
+10-Sep-2022 22:16:44.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Sep-2022 22:16:44.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+10-Sep-2022 22:16:44.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+10-Sep-2022 22:16:44.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Sep-2022 22:16:44.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Sep-2022 22:16:44.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/conf/logging.properties
+10-Sep-2022 22:16:44.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Sep-2022 22:16:44.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+10-Sep-2022 22:16:44.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Sep-2022 22:16:44.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Sep-2022 22:16:44.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+10-Sep-2022 22:16:44.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65
+10-Sep-2022 22:16:44.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65
+10-Sep-2022 22:16:44.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/temp
+10-Sep-2022 22:16:44.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/daehwajeong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Sep-2022 22:16:45.015 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+10-Sep-2022 22:16:45.052 INFO [main] org.apache.catalina.startup.Catalina.load [349] 밀리초 내에 서버가 초기화되었습니다.
+10-Sep-2022 22:16:45.074 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+10-Sep-2022 22:16:45.074 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.65]
+10-Sep-2022 22:16:45.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/docs]을(를) 배치합니다.
+10-Sep-2022 22:16:45.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/docs]에 대한 배치가 [140] 밀리초에 완료되었습니다.
+10-Sep-2022 22:16:45.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/manager]을(를) 배치합니다.
+10-Sep-2022 22:16:45.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/manager]에 대한 배치가 [19] 밀리초에 완료되었습니다.
+10-Sep-2022 22:16:45.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/examples]을(를) 배치합니다.
+10-Sep-2022 22:16:45.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/examples]에 대한 배치가 [119] 밀리초에 완료되었습니다.
+10-Sep-2022 22:16:45.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/ROOT]을(를) 배치합니다.
+10-Sep-2022 22:16:45.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/ROOT]에 대한 배치가 [10] 밀리초에 완료되었습니다.
+10-Sep-2022 22:16:45.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/host-manager]을(를) 배치합니다.
+10-Sep-2022 22:16:45.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/daehwajeong/Documents/GitHub/Java-BackEnd-10Project-Release/apache-tomcat-9.0.65/webapps/host-manager]에 대한 배치가 [10] 밀리초에 완료되었습니다.
+10-Sep-2022 22:16:45.380 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+10-Sep-2022 22:16:45.387 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [335] 밀리초 내에 시작되었습니다.
+10-Sep-2022 22:17:59.045 INFO [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+10-Sep-2022 22:17:59.046 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+10-Sep-2022 22:17:59.048 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+10-Sep-2022 22:17:59.060 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+10-Sep-2022 22:17:59.072 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
