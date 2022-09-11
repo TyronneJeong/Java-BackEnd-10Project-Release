@@ -1,0 +1,5 @@
+래스토랑 주문
+- 각 도메인 영역별 클래스를 분리하고 도출된 메서드를 통해 상호 교신하는 객체지향적 구현방식에 대한 내용을 다룬다.
+- 진입점은 Customer 로서 고객은 메뉴(Menu)를 보고 해당 메뉴(MenuItem)를 주문(Cooking)하고 음식(Cook)을 제공 받는다.
+- 잘못된 메뉴 주문시 발생되는 IllegalArgumentException 발생과 발생 메세지를 검증 하는 메서드 체이닝을 학습한다.
+  ㄴ assertThatCode(()->doSomething()).isInstanceof(IlliegalArgumentException.class).hasMessage("기대메세지")

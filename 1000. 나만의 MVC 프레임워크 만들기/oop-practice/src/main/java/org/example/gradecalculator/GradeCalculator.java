@@ -16,6 +16,10 @@ public class GradeCalculator {
 //    }
 
     // TO-BE 일급 콜렉션을 통해 초기화
+    // 해당 일급 콜렉션의 내부함수를 이용하기 때문에 조금더 응집도가 높아지게 된다.
+    // 교과목의 정보를 가지고 있는 Course는 교과목의 (학점 * 평정) 정보를 위임하고 있다.
+    // 교과목들의 정보를 가지고 있는 Courses는 모든 교과목들의 (학점 * 평점) / 전체 수강 과목 학점 합 산출 메서드를 위임하고 있다.
+    // 이로서 객체중심의 함수 정리가 이루어 져 [단일책임의 원칙], [고결합/낮은커플링]을 만족하게 된다.
     public GradeCalculator(Courses courses) {
         this.courses = courses;
     }
