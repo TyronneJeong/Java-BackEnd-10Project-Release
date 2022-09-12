@@ -1,0 +1,37 @@
+[Http 란?]
+- 서버와 클라이언트가 웹에서 데이터를 주고 받기 위한 프로토콜
+- Http/1.1, Http/2 는 TCP기반에서 동작 (3-Way Handshake)
+  ㄴ 서버와 클라이언트간 정상적인 데이터 통신 환경을 수립하기 위한 절차.(종료시. 4-Way HandShake)
+	 Client > Server : TCP SYN
+	 Server > Client : TCP SYN ACK
+	 Client > Server : TCP ACK
+- Http/3 는 UDP 기반의 프로토콜로 핸드쉐이크 과정이 없다.
+
+
+[Http 요청 및 응답 메세지 구조]
+- 요청 메세지 : Request Line, Header, Blank Line, Body
+- 응답 메세지 : Status Line,  Header, Blank Line, Body
+
+
+[Http 특징]
+- 클라이언트 - 서버 간 통신 모델
+- 무상태프로콜(Stateless)
+  ㄴ 컴퓨팅에서 무상태 프로토콜은 어떠한 이전 요청과도 무관한 각각의 요청을 독립적인 트랜잭션으로 취급하는 통신 
+     프로토콜로, 통신이 독립적인 쌍의 요청과 응답을 이룰 수 있게 하는 방식이다.
+  
+  (Multiple Connection <-> Persistence Connection)
+  서버에서 방금전 핸드쉐이크를 요청 한 클라이언트가 동일 클라이언트 인지 식별하지 않기 때문에 매 요청 시 마다 HandShake가 발생되는 오버헤드가 발생됨. 이를 해결 하기 위해 Keep-Alive 속성이 추가 됨.(Http/1.0)
+  But, persistence connection 의 수가 증가할 수록 처리가능 한 스레드 풀이 줄어 듬으로 이부분 유의해야 한다.
+
+- 비연결성(Connectionless)
+  ㄴ 서버가 클라이언트 요청에 대해 응답을 마친 경우 기존 커넥션 정보를 해제하는 특성.
+  ㄴ 해결책 : 쿠키(클라이언트), 세션(서버), JWT(Json Web Token)
+
+[Http 요청 메소드]
+- GET, POST, PUT, DELETE 등
+
+[Http 응답 코드]
+- 2XX(성공), 3XX(리다이렉션), 4XX(클라이언트 에러), 5XX(서버에러) 등
+
+[Http 헤더]
+- Content-type, Accept, Cookie, Set-Cookie, Authorizaiton 등
