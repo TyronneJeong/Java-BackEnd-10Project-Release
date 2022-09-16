@@ -10,5 +10,6 @@ public class HelloResource {
     @Produces("text/plain")
     public String hello() {
         return "Hello, World!";
+
     }
 }
