@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ReflectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-17T07:55:53" hostname="jeongdaehwasMBP" time="0.057">
+  <properties/>
+  <testcase name="Heap 영역에 로드되어 있는 클래스 정보 가져 오기" classname="org.example.ReflectionTest" time="0.057"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.example.ReflectionTest - clazz1 : [class org.example.model.User]
+[Test worker] INFO org.example.ReflectionTest - clazz2 : [class org.example.model.User]
+[Test worker] INFO org.example.ReflectionTest - clazz3 : [class org.example.model.User]
+[Test worker] INFO org.example.ReflectionTest - clazz1 == clazz2 : [true]
+[Test worker] INFO org.example.ReflectionTest - clazz1 == clazz3 : [true]
+[Test worker] INFO org.example.ReflectionTest - clazz2 == clazz3 : [true]
+]]></system-err>
+</testsuite>
