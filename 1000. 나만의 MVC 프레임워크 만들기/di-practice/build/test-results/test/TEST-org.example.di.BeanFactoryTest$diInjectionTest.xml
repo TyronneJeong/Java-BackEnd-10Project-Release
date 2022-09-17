@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.di.BeanFactoryTest$diInjectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-17T05:48:16" hostname="jeongdaehwasMBP" time="0.187">
+  <properties/>
+  <testcase name="초기화가 끝난 상황에서 Annotation 을 상속 받은 특정 Bean을 불러오는 테스트를 한다." classname="org.example.di.BeanFactoryTest$diInjectionTest" time="0.187"/>
+  <system-out><![CDATA[org.example.annotation.Controller
+org.example.annotation.Service
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
