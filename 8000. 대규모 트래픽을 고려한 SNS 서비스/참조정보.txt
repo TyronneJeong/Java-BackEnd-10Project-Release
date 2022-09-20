@@ -1,3 +1,17 @@
+[Spring Initializer]
 Spring Initializer : https://start.spring.io/
+
+[Git]
 Source Tree : https://www.sourcetreeapp.com/
+
+[Git 제외정보생성]
 gitIgnore : https://www.toptal.com/developers/gitignore
+
+
+[배포도구]
+Heroku : https://www.heroku.com/
+https://dashboard.heroku.com/apps/snsproject-app/deploy/heroku-git
+
+[Git-Actions]
+Repository > Settings > Secrets > Actions
+New Repository Secret > HEROKU_DEPLOY_KEY 붙여넣기
